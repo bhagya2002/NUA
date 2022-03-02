@@ -36,7 +36,9 @@ function Footer() {
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2>About Us</h2>
+            <Link to="/about-us">
+              <h2>About Us</h2>
+            </Link>
             <Link to="/">Council Members</Link>
             <Link to="/">Newsletter</Link>
             <Link to="/">Office Hourse</Link>
@@ -44,7 +46,9 @@ function Footer() {
             <Link to="/">FAQs</Link>
           </div>
           <div className="footer-link-items">
-            <h2>Get Involved</h2>
+            <Link to="/get-involved">
+              <h2>Get Involved</h2>
+            </Link>
             <Link to="/">Calendar</Link>
             <Link to="/">Meeting Minutes</Link>
             <Link to="/">Volunteering</Link>
