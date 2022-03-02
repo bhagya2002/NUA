@@ -48,7 +48,7 @@ function About() {
                 <br />
                 <br />
                 <strong>Role of the NUA:</strong> <br />
-                <ul>
+                <ul className="list-padding">
                   <li>
                     Connect students with faculty members through informal and
                     formal venues and communications
@@ -80,7 +80,7 @@ function About() {
                 To create social and academic opportunities through student
                 involvement with the Faculty of Nursing and the University of
                 Alberta. Our Vision:
-                <ul>
+                <ul className="list-padding">
                   <li>
                     To provide unity among all undergraduate students in the
                     Faculty of Nursing
