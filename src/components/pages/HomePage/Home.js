@@ -33,8 +33,9 @@ function Home() {
               >
                 If you would like to share a picture of you and your friends on
                 the NUA website to show what a FANTASTIC time you're having in
-                Nursing, please email us (nua@ualberta.ca) your pictures and we
-                will upload them on our site!
+                Nursing, please email us
+                <a href="mailto: nua@ualberta.ca"> (nua@ualberta.ca) </a>
+                your pictures and we will upload them on our site!
               </p>
             </div>
           </div>

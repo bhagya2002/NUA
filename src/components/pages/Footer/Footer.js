@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import { Button } from "../../Button";
 import { Link } from "react-router-dom";
 import {
   FaFacebook,
@@ -40,8 +39,8 @@ function Footer() {
               <h2>About Us</h2>
             </Link>
             <Link to="/">Council Members</Link>
-            <Link to="/">Newsletter</Link>
-            <Link to="/">Office Hourse</Link>
+            <Link to="/newsletter">Newsletter</Link>
+            <Link to="/">Office Hours</Link>
             <Link to="/">Contact Us</Link>
             <Link to="/">FAQs</Link>
           </div>
@@ -56,14 +55,18 @@ function Footer() {
         </div>
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
-            <h2>Council</h2>
+            <Link to="/council">
+              <h2>Council</h2>
+            </Link>
             <Link to="/">Meet the Team</Link>
             <Link to="/">Resources</Link>
             <Link to="/">Mentorship</Link>
             <Link to="/">Partnerships</Link>
           </div>
           <div className="footer-link-items">
-            <h2>Subgroups</h2>
+            <Link to="/subgroups">
+              <h2>Subgroups</h2>
+            </Link>
             <Link to="/">FCNS</Link>
             <Link to="/">BSCN</Link>
             <Link to="/">Resources</Link>
@@ -95,7 +98,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to="/"
+              to="/instagram"
               target="_blank"
               aria-label="Instagram"
             >
