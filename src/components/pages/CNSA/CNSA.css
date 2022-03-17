@@ -1,5 +1,6 @@
 .CNSA-container {
-  height: 90vh;
+  margin-top: 6em;
+  margin-bottom: 10vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -7,4 +8,13 @@
 
 .list-padding {
   padding-left: 1.5rem;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
 }
