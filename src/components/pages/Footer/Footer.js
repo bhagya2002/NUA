@@ -38,11 +38,11 @@ function Footer() {
             <Link to="/about-us">
               <h2>About Us</h2>
             </Link>
-            <Link to="/">Council Members</Link>
+            <Link to="/council-member">Council Members</Link>
             <Link to="/newsletter">Newsletter</Link>
             <Link to="/">Office Hours</Link>
             <Link to="/">Contact Us</Link>
-            <Link to="/">FAQs</Link>
+            <Link to="/faq">FAQs</Link>
           </div>
           <div className="footer-link-items">
             <Link to="/get-involved">
@@ -50,7 +50,7 @@ function Footer() {
             </Link>
             <Link to="/">Calendar</Link>
             <Link to="/">Meeting Minutes</Link>
-            <Link to="/">Volunteering</Link>
+            <Link to="/volunteer">Volunteering</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
@@ -59,7 +59,7 @@ function Footer() {
               <h2>Council</h2>
             </Link>
             <Link to="/">Meet the Team</Link>
-            <Link to="/">Resources</Link>
+            <Link to="/resources">Resources</Link>
             <Link to="/">Mentorship</Link>
             <Link to="/">Partnerships</Link>
           </div>
@@ -67,9 +67,9 @@ function Footer() {
             <Link to="/subgroups">
               <h2>Subgroups</h2>
             </Link>
-            <Link to="/">FCNS</Link>
-            <Link to="/">BSCN</Link>
-            <Link to="/">Resources</Link>
+            <Link to="/fcns">FCNS</Link>
+            <Link to="/bscn">BSCN</Link>
+            <Link to="/resources">Resources</Link>
           </div>
         </div>
       </div>
@@ -88,46 +88,33 @@ function Footer() {
           </div>
           <small className="website-rights">NUA © 2022</small>
           <div className="social-icons">
-            <Link
+            <a
               className="social-icon-link"
-              to="/"
+              href="https://www.facebook.com/nua.ualberta/"
               target="_blank"
+              rel="noreferrer"
               aria-label="Facebook"
             >
               <FaFacebook />
-            </Link>
-            <Link
+            </a>
+            <a
               className="social-icon-link"
-              to="/instagram"
+              href="https://www.instagram.com/nua_ualberta/?hl=en"
               target="_blank"
+              rel="noreferrer"
               aria-label="Instagram"
             >
               <FaInstagram />
-            </Link>
-            <Link
+            </a>
+            <a
               className="social-icon-link"
-              to={"#"}
+              href="https://twitter.com/nua_ualberta"
               target="_blank"
-              aria-label="Youtube"
-            >
-              <FaYoutube />
-            </Link>
-            <Link
-              className="social-icon-link"
-              to="/"
-              target="_blank"
+              rel="noreferrer"
               aria-label="Twitter"
             >
               <FaTwitter />
-            </Link>
-            <Link
-              className="social-icon-link"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
-              <FaLinkedin />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
